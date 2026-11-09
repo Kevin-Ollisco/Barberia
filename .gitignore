@@ -1,0 +1,16 @@
+# Paquetes instalados (se regeneran con npm install)
+node_modules
+
+# Archivos generados al compilar
+dist
+build
+
+# CLAVES SECRETAS: nunca se suben
+.env
+.env.*
+!.env.example
+
+# Basura del sistema y de los editores
+*.log
+.DS_Store
+Thumbs.db
